@@ -3,3 +3,87 @@
     width: 120px;
 }
 
+.navbar{
+     background-color: #b01913 !important;
+}
+.team-img{
+    border: solid;
+    border-radius: 30px;
+    width: 200px;
+    height: 250px;
+}    
+    
+.navbar-brand {
+   font-family: 'Anton', sans-serif;
+   margin:0;
+   padding:0;
+   color:white;
+   
+}
+
+.navbar-nav {
+   font-family: 'Anton', sans-serif;
+     padding: 0 20px 0 20px;
+     text-align: center;
+     color:white;
+    
+}
+
+.nav-link:hover {
+      text-decoration: underline;
+      padding: 0 20px
+      
+}
+
+.navbar i{
+          display:inline-block;
+          font-size: 40px;
+          line-height: 40px;
+          color:gold;
+          width: 46px;
+          height: 48px;
+          border-radius: 50px;
+        
+}
+
+.hr {
+    border: none;
+    background-color: #3a9679;
+    color: #3a9679;
+}
+
+
+.carousel .carousel-item {
+    transition-duration: 1.5s;
+}
+
+.carousel-control-prev-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 30px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.carousel-control-next-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 30px;
+  margin-top: -22px;
+  color: yellow;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
